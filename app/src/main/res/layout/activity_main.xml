@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codekul.interactivitycommunication.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="marginLeft"
+        android:layout_marginLeft="50dp"
+        android:background="#e8e8e8"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="paddingLeft"
+        android:textSize="30sp"
+        android:paddingLeft="50dp"
+        android:background="#e8e8e8"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gravity:center"
+        android:textSize="30sp"
+        android:background="#e8e8e8"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="layout_gravity"
+        android:textSize="30sp"
+        android:background="#e8e8e8"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
