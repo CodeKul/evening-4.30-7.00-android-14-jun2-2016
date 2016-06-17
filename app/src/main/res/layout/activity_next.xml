@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +7,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.codekul.interactivitycommunication.NextActivity">
+    tools:context="com.codekul.interactivitycommunication.NextActivity"
+    android:orientation="vertical">
 
-</RelativeLayout>
+    <EditText
+        android:id="@+id/edtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Result"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioAndroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"/>
+
+        <RadioButton
+            android:id="@+id/radioiOs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iOS"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+</LinearLayout>
