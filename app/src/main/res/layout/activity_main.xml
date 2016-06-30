@@ -18,11 +18,17 @@
         android:layout_alignParentBottom="true"
         android:visibility="gone"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/normalStyle"
+        android:text="{code}kul;"/>
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:entries="@array/countries"
-        android:layout_margin="@dimen/marginList">
+        style="@style/normalStyle">
 
     </ListView>
 
